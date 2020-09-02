@@ -1,0 +1,39 @@
+Instalar todos los paquetes de node(carpeta: node_modelus):
+npm install
+
+
+Para guardar los cambios automaticamente
+npm i -D webpack-dev-server
+
+Importar CSS
+npm i -D css-loader style-loader
+
+Instalar de manera independiente un CSS(usado como global)
+npm i -D mini-css-extract-plugin
+
+Minimizar el archivo CSS creado de manera independiente
+npm i -D optimize-css-assets-webpack-plugin
+
+Agregar imagenes
+npm i -D file-loader 
+
+Copiar archivos dentro de dist
+npm i -D copy-webpack-plugin --save-dev
+
+Instalar babeljs
+npm install --save-dev babel-loader @babel/core
+o se puede usar:
+npm i -D babel-loader @babel/core
+
+Instalar babeljs minify
+npm i babel-preset-minify --save-dev
+
+Instalar BabelMinifyWebpackPlugin:
+npm install babel-minify-webpack-plugin --save-dev
+
+Instalar @babel/preset-env:
+npm install --save-dev @babel/preset-env
+
+Limpiar(borrar) la carpeta de dist:
+npm install --save-dev clean-webpack-plugin
+
