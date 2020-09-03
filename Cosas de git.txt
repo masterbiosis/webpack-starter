@@ -1,0 +1,16 @@
+Cosas de GIT HUB:
+
+Para iniciar el repositorio:
+git init
+
+Para hacer un respaldo de mi repositorio:
+git add .
+
+
+Relizar un commit: a partir de aqui se hace el resplado:
+git commit -m "mensaje"
+ej: git commit -m "inicio"
+
+
+recuperar archivos de inicio:
+git checkout -- .
